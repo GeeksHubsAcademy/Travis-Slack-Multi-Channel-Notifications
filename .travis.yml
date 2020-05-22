@@ -1,0 +1,14 @@
+notifications:
+  slack:
+    rooms:
+      - travisnotific-r1j8011:vSTulN5f4aIY18sZ46Og7kcp
+      - travisnotific-r1j8011:7s2QnoWHP8Cvz5ABZeFjvllX
+    on_success: always
+    on_failure: always
+language: python
+dist: trusty
+cache: false
+python:
+ - "3.6"
+install: pip install -e .
+script: pytest
