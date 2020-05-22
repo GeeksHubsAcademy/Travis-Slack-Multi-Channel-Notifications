@@ -3,6 +3,7 @@ notifications:
     rooms:
       - travisnotific-r1j8011:vSTulN5f4aIY18sZ46Og7kcp
       - travisnotific-r1j8011:7s2QnoWHP8Cvz5ABZeFjvllX
+      - geekshubs:IdZk0qFlvDoax8MUb9igCb05
     on_success: always
     on_failure: always
 language: python
